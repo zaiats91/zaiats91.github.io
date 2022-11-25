@@ -1,0 +1,586 @@
+/* reset.css */
+@import 'Base/fonts.css';
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body .header .nav_position .login__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body .wrapper .a7, body .wrapper .a6, body .wrapper .a5, body .wrapper .a4, body .wrapper .a3, body .wrapper .a2, body .wrapper .a1, body .partnerBox .partner .avatar4, body .partnerBox .partner .avatar3, body .partnerBox .partner .avatar2, body .partnerBox .partner .avatar1, body .itemBox .item3, body .itemBox .item2, body .itemBox .item1, body .header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+body h1 {
+  font-family: "Montserrat-Bold";
+  font-size: 26px;
+  color: rgb(0, 0, 0);
+  margin-top: 92px;
+  text-align: center;
+  margin-bottom: 38px;
+}
+body h2 {
+  font-family: "Robo-Light";
+  font-size: 18px;
+  color: rgb(117, 107, 107);
+  text-align: center;
+  margin-top: 55px;
+  letter-spacing: 0.5px;
+}
+body hr {
+  border: 1px solid #b93e3e;
+  margin-top: 99px;
+}
+body .header {
+  background-image: url(Images/header.png);
+  width: 1440px;
+  height: 700px;
+}
+body .header .nav_position {
+  width: 100%;
+  height: 116px;
+  display: flex;
+  margin: 0px -50px;
+  text-align: center;
+}
+body .header .nav_position .logo {
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+body .header .nav_position .login {
+  display: flex;
+  align-items: center;
+  margin-left: 573px;
+}
+body .header .nav_position .login__button {
+  font-family: "Montserrat-Regular";
+  font-size: 14px;
+  color: white;
+  width: 90px;
+  height: 36px;
+  margin-right: -4px;
+}
+body .header .nav_position .login__button:hover {
+  border: 3px solid white;
+  border-radius: 18px;
+}
+body .header .mainTextBox {
+  width: 500px;
+  height: auto;
+  margin: 114px auto 0;
+  text-align: center;
+}
+body .header .mainTextBox .mainText {
+  font-family: "Montserrat-Bold";
+  font-size: 52px;
+  color: white;
+  margin-top: 10px;
+}
+body .header .underMainText {
+  font-family: "Robo-Light";
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin-top: 33px;
+  letter-spacing: 0.5px;
+}
+body .button {
+  width: 225px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #b93e3e;
+  line-height: 40px;
+  font-family: "Montserrat-Bold";
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin: 35px auto;
+}
+body .itemBox {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  height: auto;
+  justify-content: space-between;
+}
+body .itemBox .item1 {
+  background-image: url(Images/w1.png);
+}
+body .itemBox .item2 {
+  background-image: url(Images/w2.png);
+}
+body .itemBox .item3 {
+  background-image: url(Images/w3.png);
+}
+body .item {
+  width: 300px;
+  height: 400px;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+body .item__button {
+  width: 70px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #b93e3e;
+  line-height: 20px;
+  font-family: "Montserrat-Regular";
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  margin: 35px 0 23px;
+}
+body .item__mainText {
+  font-family: "Montserrat-Bold";
+  font-size: 24px;
+  color: white;
+  margin-bottom: 26px;
+}
+body .item__undrerMainText {
+  font-family: "Robo-Light";
+  font-size: 14px;
+  color: white;
+}
+body .partnerBox {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  height: auto;
+  justify-content: space-between;
+}
+body .partnerBox .partner {
+  width: 221px;
+  height: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+}
+body .partnerBox .partner .avatar1 {
+  background-image: url(Images/p1.png);
+}
+body .partnerBox .partner .logo1 {
+  background-color: rgb(248, 18, 18);
+  background-image: url(Images/p1_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .partnerBox .partner .avatar2 {
+  background-image: url(Images/p2.png);
+}
+body .partnerBox .partner .logo2 {
+  background-color: rgb(18, 145, 248);
+  background-image: url(Images/p2_2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .partnerBox .partner .avatar3 {
+  background-image: url(Images/p3.png);
+}
+body .partnerBox .partner .logo3 {
+  background-color: rgb(248, 194, 18);
+  background-image: url(Images/p3_3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .partnerBox .partner .avatar4 {
+  background-image: url(Images/p4.png);
+}
+body .partnerBox .partner .logo4 {
+  background-color: rgb(74, 141, 230);
+  background-image: url(Images/p4_4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .partnerBox .partner__avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+}
+body .partnerBox .partner__avatar__logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  outline: 4px solid white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+body .partnerBox .partner__name {
+  font-family: "Montserrat-Bold";
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+body .partnerBox .partner__about {
+  font-family: "Robo-Light";
+  font-size: 14px;
+  color: rgb(53, 53, 53);
+  text-align: center;
+}
+body .whiteButton {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  line-height: 40px;
+  border: 2px solid #b93e3e;
+  font-family: "Montserrat-Bold";
+  font-size: 14px;
+  color: #b93e3e;
+  margin: 55px auto 0;
+  text-align: center;
+}
+body .wrapper {
+  width: 940px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 310px 310px 310px;
+  grid-gap: 20px;
+  margin: 0 auto;
+  height: auto;
+}
+body .wrapper .activities {
+  font-family: "Montserrat-Bold";
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .wrapper .a1 {
+  background-image: url(Images/activities/1.png);
+}
+body .wrapper .a2 {
+  background-image: url(Images/activities/2.png);
+}
+body .wrapper .a3 {
+  background-image: url(Images/activities/3.png);
+}
+body .wrapper .a4 {
+  background-image: url(Images/activities/4.png);
+}
+body .wrapper .a5 {
+  background-image: url(Images/activities/5.png);
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+body .wrapper .a6 {
+  background-image: url(Images/activities/6.png);
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+body .wrapper .a7 {
+  background-image: url(Images/activities/7.png);
+}
+body .searchBox {
+  width: 940px;
+  height: auto;
+  margin: 0 auto;
+}
+body .searchBox .search {
+  display: flex;
+  justify-content: center;
+}
+body .searchBox .search .searchStyle {
+  width: 299px;
+  height: 40px;
+  margin: 23px 3px 0px;
+  font-family: "Robo-Light";
+  font-size: 14px;
+  color: rgb(117, 107, 107);
+}
+body .searchBox .search .buttonStyle {
+  margin: 23px 7px 0px;
+  width: 172.12px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #b93e3e;
+  line-height: 40px;
+  font-family: "Montserrat-Bold";
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  border: 0;
+  padding: 0;
+}
+body .footer {
+  width: 940px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 30px;
+}
+body .footer .col1 {
+  font-family: "Montserrat-Bold";
+  font-size: 16px;
+  color: #b93e3e;
+}
+body .footer .col2 {
+  font-family: "Montserrat-Bold";
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  margin-left: 5px;
+}
+body .footer .col2 ul {
+  margin-top: 21px;
+}
+body .footer .col2 ul li {
+  font-family: "Robo-Light";
+  font-size: 14px;
+  color: rgb(117, 107, 107);
+  margin-top: 12px;
+}
+body .footer .col3 {
+  font-family: "Montserrat-Bold";
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  margin-left: 9px;
+}
+body .footer .col4 {
+  font-family: "Montserrat-Bold";
+  font-size: 10px;
+  color: rgb(0, 0, 0);
+  margin-left: 157px;
+  position: relative;
+}
+body .footer .col4 .footerLogo {
+  position: absolute;
+  top: 19px;
+  left: -32px;
+}
+
+@media screen and (max-width: 1439px) {
+  body {
+    width: 768px;
+  }
+  body .header {
+    width: 768px;
+    height: 700px;
+  }
+  body .header .nav_position .logo {
+    color: #b93e3e;
+    margin-left: 120px;
+  }
+  body .header .nav_position .login {
+    margin-left: 250px;
+  }
+  body .header .nav_position .login__button {
+    color: #b93e3e;
+  }
+  body .header .nav_position .login__button:hover {
+    border: 3px solid #b93e3e;
+  }
+  body .itemBox {
+    width: 768px;
+  }
+  body .itemBox .item {
+    width: 236px;
+  }
+  body .partnerBox {
+    width: 492px;
+    flex-wrap: wrap;
+  }
+  body .partnerBox .partner {
+    margin-bottom: 20px;
+  }
+  body .wrapper {
+    width: 768px;
+    grid-template-columns: 236px 236px 236px;
+  }
+  body .searchBox {
+    width: 768px;
+  }
+  body .footer {
+    width: 768px;
+  }
+  body .footer .col4 {
+    margin-left: 75px;
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+    width: 320px;
+  }
+  body h1 {
+    margin-top: 32px;
+    margin-bottom: 14px;
+  }
+  body h2 {
+    margin-top: 25px;
+  }
+  body .header {
+    width: 320px;
+    height: 700px;
+  }
+  body .header .nav_position {
+    flex-direction: column-reverse;
+    height: auto;
+    margin: 0;
+  }
+  body .header .nav_position .logo {
+    margin: 30px auto;
+    color: #b93e3e;
+  }
+  body .header .nav_position .login {
+    margin: 30px auto;
+  }
+  body .header .nav_position .login__button {
+    color: #b93e3e;
+  }
+  body .header .nav_position .login__button:hover {
+    border: 3px solid #b93e3e;
+    border-radius: 18px;
+  }
+  body .header .mainTextBox {
+    width: 320px;
+  }
+  body .header .mainTextBox .mainText {
+    font-size: 30px;
+  }
+  body .header .mainTextBox .underMainText {
+    font-size: 30px;
+  }
+  body .itemBox {
+    width: 320px;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .item {
+    height: 240px;
+    margin: 15px auto;
+  }
+  body .partnerBox {
+    width: 320px;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .whiteButton {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    line-height: 40px;
+    border: 2px solid #b93e3e;
+    margin: 15px auto 0;
+  }
+  body .wrapper {
+    width: 320px;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(7, 120px);
+    grid-gap: 10px;
+  }
+  body .wrapper .a5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  body .wrapper .a6 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  body .searchBox {
+    width: 320px;
+  }
+  body .searchBox .search {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .searchBox .search .buttonStyle {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #b93e3e;
+    line-height: 40px;
+  }
+  body .footer {
+    width: 320px;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(4, auto);
+    justify-items: center;
+    padding-top: 15px;
+  }
+  body .footer .col2 {
+    margin: 10px auto;
+    text-align: center;
+  }
+  body .footer .col2 ul {
+    display: flex;
+    width: 222px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5px;
+  }
+  body .footer .col4 {
+    margin: 15px 0 10px;
+  }
+  body .footer .col4 .footerLogo {
+    left: -18px;
+  }
+}/*# sourceMappingURL=main.css.map */

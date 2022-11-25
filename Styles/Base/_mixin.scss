@@ -1,0 +1,13 @@
+@mixin fonts ($ff, $fs, $c){
+    font-family: $ff;
+    font-size: $fs;
+    color: $c;
+}
+
+@mixin button($w, $h, $br, $bc, $lh){
+    width: $w;
+    height: $h;
+    border-radius: $br;
+    background-color: $bc;
+    line-height: $lh;
+}
